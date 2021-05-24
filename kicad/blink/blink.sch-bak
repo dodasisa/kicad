@@ -1,0 +1,66 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 6075DABB
+P 4100 2750
+F 0 "R1" V 3893 2750 50  0000 C CNN
+F 1 "470" V 3984 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4030 2750 50  0001 C CNN
+F 3 "~" H 4100 2750 50  0001 C CNN
+	1    4100 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 607606C5
+P 4800 3100
+F 0 "D1" V 4839 2982 50  0000 R CNN
+F 1 "Red" V 4748 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 3100 50  0001 C CNN
+F 3 "~" H 4800 3100 50  0001 C CNN
+	1    4800 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 60761905
+P 3400 3100
+F 0 "BT1" H 3508 3146 50  0000 L CNN
+F 1 "9V" H 3508 3055 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 3400 3160 50  0001 C CNN
+F 3 "~" V 3400 3160 50  0001 C CNN
+	1    3400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3100 3400 2900
+Wire Wire Line
+	3400 2750 3950 2750
+Wire Wire Line
+	4250 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2950
+Wire Wire Line
+	4800 3250 4800 3500
+Wire Wire Line
+	4800 3500 3400 3500
+Connection ~ 3400 2900
+Wire Wire Line
+	3400 2900 3400 2750
+Wire Wire Line
+	3400 3500 3400 3300
+$EndSCHEMATC
