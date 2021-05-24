@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "RGB driven by 3 potentiometers and a ATMega16U"
+Date "2021-05-24"
+Rev "V1"
+Comp "David"
 Comment1 ""
 Comment2 ""
 Comment3 ""
